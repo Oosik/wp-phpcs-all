@@ -1,0 +1,20 @@
+{
+    "name": "oosik/wp-phpcs-all",
+    "description": "Coding standards for WordPress and eightshift boilerplate",
+    "require": {
+
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "standards:check": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+        "standards:fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf"
+    },
+    "authors": [
+        {
+            "name": "bpbp",
+            "email": "Oosik@users.noreply.github.com"
+        }
+    ]
+}
